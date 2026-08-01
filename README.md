@@ -10,7 +10,6 @@
 
 **NexusCommerce AI** is a state-of-the-art, full-stack enterprise e-commerce platform featuring multi-vendor storefronts, real-time AI recommendation vectors, conversational shopping assistants, multi-step checkouts, payment intent gateways (Stripe/PayPal), promo discount engines, automated stock reservations, and executive BI dashboards.
 
----
 
 ## 🌟 Key Features
 
@@ -32,7 +31,6 @@
 - **Spring AOP Audit Interceptor**: `@AuditActivity` aspect automatically capturing caller email, IP address, target resource, and method action into an immutable security log.
 - **Executive BI Dashboards**: Gross Merchandise Value (GMV) metrics, Average Order Value (AOV) tracking, category sales distribution percentages, and Top Selling Product Leaderboard tables.
 
----
 
 ## 🛠️ Technology Stack
 
@@ -48,11 +46,9 @@
 - **State & HTTP**: React Context API (`AuthContext`, `CartContext`), Axios HTTP client.
 - **Deployment**: Vercel Single Page Application (`vercel.json`).
 
----
 
 ## 🏗️ System Architecture
 
-```
                                   +------------------------------+
                                   |    Vercel Frontend (React)   |
                                   +--------------+---------------+
@@ -71,9 +67,7 @@
                                   +--------------+---------------+
                                   |   Railway PostgreSQL DB      |
                                   +------------------------------+
-```
 
----
 
 ## 🚀 Quickstart & Local Setup
 
@@ -84,31 +78,29 @@
 - **Docker & Docker Compose** (Optional for containerized setup)
 
 ### 1. Clone Repository
-```bash
+
 git clone https://github.com/nexuscommerce/nexuscommerce-ai.git
 cd nexuscommerce-ai
-```
 
 ### 2. Launch Local PostgreSQL & Backend
-```bash
+
 # Option A: Run via Docker Compose
 docker-compose up -d
 
 # Option B: Run Spring Boot directly
 cd backend
 mvn clean spring-boot:run
-```
-*Backend API available at: `http://localhost:8080/api/v1`*
+
+*Backend API available at: http://localhost:8080/api/v1
 
 ### 3. Launch Frontend Development Server
-```bash
+
 cd frontend
 npm install
 npm run dev
-```
-*Frontend App available at: `http://localhost:5173`*
 
----
+*Frontend App available at: http://localhost:5173
+
 
 ## 📚 Complete Project Documentation
 
@@ -124,15 +116,6 @@ All software engineering documentation files are located in the [`docs/`](./docs
 - 🌐 [Production Cloud Deployment Guide](DEPLOYMENT.md)
 - ✅ [Final Production Audit Checklist](docs/FINAL_CHECKLIST.md)
 
----
-
-## 🌐 Production Deployment Summary
-
-- **Frontend**: Deployed on **Vercel** (`https://nexuscommerce-frontend.vercel.app`) using `vercel.json` SPA rewrite rules.
-- **Backend API**: Deployed on **Render** using a multi-stage `Dockerfile` and JDK 17 slim container runtime.
-- **Database**: Provisioned on **Railway** running PostgreSQL 16.
-
----
 
 ## 🔮 Future Roadmap
 
