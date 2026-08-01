@@ -1,125 +1,315 @@
-# NexusCommerce AI 🛍️🤖
-> **Enterprise Multi-Vendor AI-Powered E-Commerce Marketplace Platform**
-
-[![Build Status](https://img.shields.io/badge/build-passing-brightgreen.svg)](https://github.com/nexuscommerce/nexuscommerce-ai)
-[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3.0-green.svg)](https://spring.io/projects/spring-boot)
-[![React](https://img.shields.io/badge/React-18.3.1-blue.svg)](https://react.dev/)
-[![License](https://img.shields.io/badge/License-MIT-purple.svg)](LICENSE)
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16.0-blue.svg)](https://www.postgresql.org/)
-[![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
-
-**NexusCommerce AI** is a state-of-the-art, full-stack enterprise e-commerce platform featuring multi-vendor storefronts, real-time AI recommendation vectors, conversational shopping assistants, multi-step checkouts, payment intent gateways (Stripe/PayPal), promo discount engines, automated stock reservations, and executive BI dashboards.
+# 🚀 Nexus Commerce – AI-Powered Multi-Vendor E-Commerce Platform
 
 
-## 🌟 Key Features
+🛒 Intelligent • Secure • Scalable • Enterprise-Ready Digital Commerce Platform.
 
-### 🛍️ Customer Experience
-- **Conversational AI Shopping Assistant**: Integrated vector-similarity shopping assistant (`/ai-assistant`) parsing natural language product prompts.
-- **AI Recommendation Engine**: User category affinity scoring and similar product recommendations.
-- **Multi-Criteria Search & Filtering**: Instant auto-complete search, price range sliders ($0-$5000), minimum star rating filters (4★/3★), and in-stock toggles.
-- **Interactive Product Reviews**: Verified Buyer detection, 1-5 star ratings, rating breakdown distribution bars, and helpful voting.
-- **4-Step Secure Checkout**: Address selection, carrier shipping tiers (Standard, Priority Express, Overnight Courier), payment method authorization, and order success receipts.
-- **Wishlist & Cart**: Guest session cart tracking, authenticated user cart persistence, promo coupon redemptions (`WELCOME10`, `NEXUS20`), and wishlist bookmarks.
-- **Real-Time Notification Center**: Unread badge counter, order status alerts, stock warnings, and slide-over notification drawer.
-
-### 🏬 Multi-Merchant Storefronts & Inventory
-- **Seller Registration & Verification**: Merchant store onboarding workflow with admin verification controls.
-- **Warehouse Inventory Engine**: Multi-location stock level tracking, atomic order stock reservations, stock deduction, and out-of-stock safety threshold alerts.
-
-### 🛡️ Enterprise Security & Admin Governance
-- **RBAC Security & JWT**: Role-Based Access Control (`ROLE_CUSTOMER`, `ROLE_SELLER`, `ROLE_ADMIN`) with stateless JWT token authorization.
-- **Spring AOP Audit Interceptor**: `@AuditActivity` aspect automatically capturing caller email, IP address, target resource, and method action into an immutable security log.
-- **Executive BI Dashboards**: Gross Merchandise Value (GMV) metrics, Average Order Value (AOV) tracking, category sales distribution percentages, and Top Selling Product Leaderboard tables.
+An AI-powered full-stack multi-vendor e-commerce platform built using React, Spring Boot, and MySQL with dedicated Customer, Seller, and Admin portals.
 
 
-## 🛠️ Technology Stack
+# 📌 Overview:
 
-### Backend
-- **Core Framework**: Java 17, Spring Boot 3.3.0, Spring Data JPA, Spring Security 6.
-- **Database & Persistence**: PostgreSQL 16 / H2 Database, HikariCP Connection Pool.
-- **Security & AOP**: JWT (JSON Web Tokens), BCrypt Password Encoder, Spring AOP.
-- **Build & Containerization**: Maven, Multi-Stage Dockerfile, Render Blueprint (`render.yaml`).
+Nexus Commerce is an enterprise-grade AI-powered Multi-Vendor E-Commerce Platform that provides a modern online shopping experience through Artificial Intelligence, secure authentication, advanced product discovery, intelligent recommendations, and complete marketplace management.
 
-### Frontend
-- **Core Framework**: React 18, Vite, React Router DOM v6.
-- **Styling & UI**: TailwindCSS, Glassmorphism UI tokens, Lucide React Icons.
-- **State & HTTP**: React Context API (`AuthContext`, `CartContext`), Axios HTTP client.
-- **Deployment**: Vercel Single Page Application (`vercel.json`).
+The platform enables customers to shop smarter, sellers to efficiently manage their stores, and administrators to monitor the entire marketplace through a powerful analytics dashboard.
 
 
-## 🏗️ System Architecture
+# ✨ Features:
 
-                                  +------------------------------+
-                                  |    Vercel Frontend (React)   |
-                                  +--------------+---------------+
-                                                 |
-                                      HTTPS REST | JSON Web Tokens
-                                                 v
-                                  +--------------+---------------+
-                                  | Render Backend (Spring Boot) |
-                                  |  - Security & JWT Filter     |
-                                  |  - AI Vector Engine          |
-                                  |  - AOP Audit Aspect          |
-                                  +--------------+---------------+
-                                                 |
-                                   JDBC Postgres | Connection Pool
-                                                 v
-                                  +--------------+---------------+
-                                  |   Railway PostgreSQL DB      |
-                                  +------------------------------+
+## 👤 Customer Portal
+
+- Secure Login & Registration
+- AI Product Recommendations
+- Smart Product Search
+- Product Categories
+- Product Catalog
+- Product Details
+- Shopping Cart
+- Wishlist
+- Saved Items
+- Compare Products
+- Order Placement
+- Order Tracking
+- Purchase History
+- Coupons & Rewards
+- AI Shopping Assistant
+- Customer Support
+- Responsive Dashboard
+- Profile Management
 
 
-## 🚀 Quickstart & Local Setup
+## 🛍 Seller Portal
 
-### Prerequisites
-- **JDK 17** or higher
-- **Node.js 18+** & `npm`
-- **Maven 3.8+**
-- **Docker & Docker Compose** (Optional for containerized setup)
+- Seller Registration
+- Seller Authentication
+- Seller Dashboard
+- Add Products
+- Update Products
+- Delete Products
+- Multiple Product Images
+- Inventory Management
+- Stock Tracking
+- Order Management
+- Revenue Dashboard
+- Sales Analytics
+- Customer Reviews
+- Discount Management
+- Coupon Creation
+- Store Profile
+- Business Reports
 
-### 1. Clone Repository
+---
 
-git clone https://github.com/nexuscommerce/nexuscommerce-ai.git
-cd nexuscommerce-ai
+## 🛡 Admin Portal
 
-### 2. Launch Local PostgreSQL & Backend
+- Secure Admin Login
+- Enterprise Dashboard
+- Customer Management
+- Seller Management
+- Product Management
+- Category Management
+- Vendor Approval
+- Order Monitoring
+- Revenue Analytics
+- Sales Reports
+- Platform Analytics
+- Dashboard Charts
+- User Management
+- Role Management
+- Coupon Management
+- System Monitoring
+- Platform Settings
 
-# Option A: Run via Docker Compose
-docker-compose up -d
 
-# Option B: Run Spring Boot directly
+# 🤖 AI Features:
+
+- AI Product Recommendations
+- Intelligent Product Search
+- Personalized Shopping Experience
+- Similar Product Suggestions
+- Trending Product Detection
+- Smart Product Ranking
+- AI Shopping Assistant
+- Search Prediction
+- Intelligent Filtering
+- Category-Based Recommendations
+
+
+# 💻 Technology Stack:
+
+## Frontend
+
+- React.js
+- Vite
+- Tailwind CSS
+- React Router
+- Axios
+
+## Backend
+
+- Java 17
+- Spring Boot
+- Spring MVC
+- Spring Security
+- Spring Data JPA
+- Hibernate
+- REST APIs
+
+## Database
+
+- MySQL
+
+## Development Tools
+
+- VS Code
+- IntelliJ IDEA
+- Maven
+- Git
+- GitHub
+- Postman
+
+
+# 🏗 Architecture:
+
+React.js + Vite
+        │
+        ▼
+ REST APIs (JSON)
+        │
+        ▼
+ Spring Boot Backend
+        │
+ Spring Security
+        │
+ Spring Data JPA
+        │
+ Hibernate ORM
+        │
+        ▼
+     MySQL Database
+
+
+# 📂 Project Structure:
+
+NexusCommerce
+│
+├── backend
+│   ├── src
+│   ├── pom.xml
+│   ├── Dockerfile
+│   └── render.yaml
+│
+├── frontend
+│   ├── src
+│   ├── public
+│   ├── package.json
+│   ├── vite.config.js
+│   └── vercel.json
+│
+├── docs
+│
+└── README.md
+
+
+# 🔐 Authentication:
+
+- Customer Authentication
+- Seller Authentication
+- Admin Authentication
+- Role-Based Access Control
+- Protected Routes
+- Secure Session Management
+
+
+# 📊 Dashboard Modules:
+
+## Customer Dashboard
+
+- Shopping Statistics
+- AI Recommendations
+- Orders
+- Wishlist
+- Purchase History
+
+### Seller Dashboard
+
+- Products
+- Inventory
+- Orders
+- Revenue
+- Sales Analytics
+
+### Admin Dashboard
+
+- Customers
+- Sellers
+- Products
+- Revenue
+- Orders
+- Platform Analytics
+
+
+# 📱 Main Modules:
+
+- Landing Page
+- Login
+- Registration
+- Customer Dashboard
+- Seller Dashboard
+- Admin Dashboard
+- Categories
+- Products
+- Shopping Cart
+- Wishlist
+- Orders
+- Coupons
+- Reports
+- Analytics
+
+
+# 🚀 Installation:
+
+## Clone Repository
+
+git clone https://github.com/Puliteja2006/nexus-commerce-ai.git
+
+## Backend
+
 cd backend
-mvn clean spring-boot:run
+mvn clean install
+mvn spring-boot:run
 
-*Backend API available at: http://localhost:8080/api/v1
-
-### 3. Launch Frontend Development Server
+## Frontend
 
 cd frontend
 npm install
 npm run dev
 
-*Frontend App available at: http://localhost:5173
+
+# 🚀 Future Enhancements:
+
+- Online Payments
+- AI Chatbot
+- Voice Search
+- Image Search
+- Email Notifications
+- SMS Notifications
+- Live Chat Support
+- Machine Learning Recommendations
+- Fraud Detection
+- Mobile Application
+- Multi-language Support
+- Dark & Light Theme
 
 
-## 📚 Complete Project Documentation
+# 📈 Highlights:
 
-All software engineering documentation files are located in the [`docs/`](./docs) folder:
-
-- 📐 [System Architecture Documentation](docs/SYSTEM_ARCHITECTURE.md)
-- 🛢️ [Database ER & Schema Reference](docs/DATABASE.md)
-- 🔌 [Complete REST API Specification](docs/API_DOCUMENTATION.md)
-- 📬 [Postman Collection Guide](docs/POSTMAN_COLLECTION.md)
-- 📄 [Academic & Industry Project Report](docs/PROJECT_REPORT.md)
-- 💼 [Portfolio, Resume & Interview Guide](docs/PORTFOLIO_GUIDE.md)
-- 🧪 [Testing & QA Verification Guide](docs/TESTING.md)
-- 🌐 [Production Cloud Deployment Guide](DEPLOYMENT.md)
-- ✅ [Final Production Audit Checklist](docs/FINAL_CHECKLIST.md)
+- Enterprise-Level Architecture
+- Fully Responsive UI
+- AI-Powered Features
+- Modular Code Structure
+- Secure Authentication
+- RESTful APIs
+- High Performance
+- Scalable Design
+- Production Ready
 
 
-## 🔮 Future Roadmap
+# 👨‍💻 Developer:
 
-- [ ] Spring AI OpenAI GPT-4 Embedding Vectors Integration for RAG catalog search.
-- [ ] GraphQL API Endpoint Support alongside REST APIs.
-- [ ] Native Mobile App (React Native / Flutter).
-- [ ] Automated Redis Distributed Cache Layer for Product Aggregation.
+## **Puli Sai Srinivasa Teja**
+
+**B.Tech – Computer Science Engineering**
+
+
+### Skills:
+
+- Java
+- Spring Boot
+- React.js
+- REST APIs
+- MySQL
+- Hibernate
+- Spring Security
+- Git & GitHub
+- AI Applications
+
+
+# 🤝 Contributions:
+
+Contributions, feature requests, and suggestions are welcome.
+
+If you have ideas for improving the platform, feel free to fork the repository and submit a pull request.
+
+
+# ⭐ Support:
+
+If you found this project useful, please consider giving it a ⭐ on GitHub.
+
+It helps support the project and encourages future development.
+
+
+# 📄 License:
+
+This project is developed for educational purposes, portfolio demonstration, and placement preparation.
+
+© 2026 Puli Sai Srinivasa Teja. All Rights Reserved.
