@@ -228,7 +228,7 @@ NexusCommerce-X
 
 ## Clone Repository
 
-git clone https://github.com/Puliteja2006/nexus-commerce-ai.git
+https://github.com/Puliteja2006/Nexus-Commerce-AI
 
 ## Backend
 
