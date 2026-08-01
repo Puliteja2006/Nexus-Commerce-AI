@@ -233,13 +233,17 @@ git clone https://github.com/Puliteja2006/nexus-commerce-ai.git
 ## Backend
 
 cd backend
+
 mvn clean install
+
 mvn spring-boot:run
 
 ## Frontend
 
 cd frontend
+
 npm install
+
 npm run dev
 
 
