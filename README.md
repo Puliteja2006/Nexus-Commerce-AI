@@ -1,315 +1,352 @@
-# 🚀 Nexus Commerce – AI-Powered Multi-Vendor E-Commerce Platform
+# 👋 Hi, I'm Puli Sai Srinivasa Teja
+
+# 🚀 AI Full Stack Developer | Software Development Engineer | Java Backend Developer
+
+### Building intelligent, scalable, and enterprise-grade software solutions using Java, Spring Boot, React.js, Artificial Intelligence, and Modern Web Technologies.
+
+*"Passionate about solving real-world problems through software engineering, AI-powered applications, and scalable backend systems."*
 
 
-🛒 Intelligent • Secure • Scalable • Enterprise-Ready Digital Commerce Platform.
+# 🚀 About Me
 
-An AI-powered full-stack multi-vendor e-commerce platform built using React, Spring Boot, and MySQL with dedicated Customer, Seller, and Admin portals.
+I am a Computer Science Engineering student passionate about building **enterprise-grade Full Stack and AI-powered applications** using modern software engineering practices.
 
+I enjoy designing scalable backend systems, developing responsive web applications, and solving real-world problems through technology. My goal is to become a Software Development Engineer specializing in Full Stack Development, Artificial Intelligence, and Cloud Technologies.
 
-# 📌 Overview:
+### 🌟 Interests
 
-Nexus Commerce is an enterprise-grade AI-powered Multi-Vendor E-Commerce Platform that provides a modern online shopping experience through Artificial Intelligence, secure authentication, advanced product discovery, intelligent recommendations, and complete marketplace management.
-
-The platform enables customers to shop smarter, sellers to efficiently manage their stores, and administrators to monitor the entire marketplace through a powerful analytics dashboard.
-
-
-# ✨ Features:
-
-## 👤 Customer Portal
-
-- Secure Login & Registration
-- AI Product Recommendations
-- Smart Product Search
-- Product Categories
-- Product Catalog
-- Product Details
-- Shopping Cart
-- Wishlist
-- Saved Items
-- Compare Products
-- Order Placement
-- Order Tracking
-- Purchase History
-- Coupons & Rewards
-- AI Shopping Assistant
-- Customer Support
-- Responsive Dashboard
-- Profile Management
+- 🤖 Artificial Intelligence
+- ☕ Java Backend Development
+- 🌐 Full Stack Development
+- ⚙ Spring Boot & REST APIs
+- 📊 Data Structures & Algorithms
+- 🏗 Software Architecture
+- ☁ Cloud Technologies
+- 🚀 Enterprise Software Development
 
 
-## 🛍 Seller Portal
+# 💻 Technical Skills
 
-- Seller Registration
-- Seller Authentication
-- Seller Dashboard
-- Add Products
-- Update Products
-- Delete Products
-- Multiple Product Images
-- Inventory Management
-- Stock Tracking
-- Order Management
-- Revenue Dashboard
-- Sales Analytics
-- Customer Reviews
-- Discount Management
-- Coupon Creation
-- Store Profile
-- Business Reports
+## 💻 Programming Languages
 
----
-
-## 🛡 Admin Portal
-
-- Secure Admin Login
-- Enterprise Dashboard
-- Customer Management
-- Seller Management
-- Product Management
-- Category Management
-- Vendor Approval
-- Order Monitoring
-- Revenue Analytics
-- Sales Reports
-- Platform Analytics
-- Dashboard Charts
-- User Management
-- Role Management
-- Coupon Management
-- System Monitoring
-- Platform Settings
+- Java
+- JavaScript
+- SQL
 
 
-# 🤖 AI Features:
-
-- AI Product Recommendations
-- Intelligent Product Search
-- Personalized Shopping Experience
-- Similar Product Suggestions
-- Trending Product Detection
-- Smart Product Ranking
-- AI Shopping Assistant
-- Search Prediction
-- Intelligent Filtering
-- Category-Based Recommendations
-
-
-# 💻 Technology Stack:
-
-## Frontend
+## 🌐 Frontend Development
 
 - React.js
-- Vite
-- Tailwind CSS
-- React Router
-- Axios
+- HTML5
+- CSS3
+- Responsive Web Design
 
-## Backend
 
-- Java 17
+## ⚙ Backend Development
+
 - Spring Boot
-- Spring MVC
-- Spring Security
+- Spring Framework
 - Spring Data JPA
 - Hibernate
-- REST APIs
+- REST API Development
 
-## Database
+
+## 🗄 Database
 
 - MySQL
 
-## Development Tools
 
-- VS Code
-- IntelliJ IDEA
-- Maven
+## 🛠 Development Tools
+
 - Git
 - GitHub
+- Maven
+- VS Code
+- IntelliJ IDEA
 - Postman
 
 
-# 🏗 Architecture:
+## 🤖 AI & Productivity
 
-React.js + Vite
-        │
-        ▼
- REST APIs (JSON)
-        │
-        ▼
- Spring Boot Backend
-        │
- Spring Security
-        │
- Spring Data JPA
-        │
- Hibernate ORM
-        │
-        ▼
-     MySQL Database
+- Prompt Engineering
+- AI-assisted Development
 
 
-# 📂 Project Structure:
+## 🤝 Soft Skills
 
-NexusCommerce
-│
-├── backend
-│   ├── src
-│   ├── pom.xml
-│   ├── Dockerfile
-│   └── render.yaml
-│
-├── frontend
-│   ├── src
-│   ├── public
-│   ├── package.json
-│   ├── vite.config.js
-│   └── vercel.json
-│
-├── docs
-│
-└── README.md
+- Problem Solving
+- Analytical Thinking
+- Team Collaboration
+- Communication
+- Adaptability
+- Continuous Learning
+
+- # 🌟 Featured Projects
 
 
-# 🔐 Authentication:
+# 🤖 AI Placement Preparation System
 
-- Customer Authentication
-- Seller Authentication
-- Admin Authentication
-- Role-Based Access Control
-- Protected Routes
-- Secure Session Management
+### AI-Powered Placement Readiness & Interview Analytics Platform
 
+An intelligent full-stack web application developed to help students prepare for placements through AI-powered resume analysis, ATS evaluation, personalized learning recommendations, placement analytics, and interview preparation tools.
 
-# 📊 Dashboard Modules:
+### 🚀 Key Features
 
-## Customer Dashboard
-
-- Shopping Statistics
-- AI Recommendations
-- Orders
-- Wishlist
-- Purchase History
-
-### Seller Dashboard
-
-- Products
-- Inventory
-- Orders
-- Revenue
-- Sales Analytics
-
-### Admin Dashboard
-
-- Customers
-- Sellers
-- Products
-- Revenue
-- Orders
-- Platform Analytics
-
-
-# 📱 Main Modules:
-
-- Landing Page
-- Login
-- Registration
-- Customer Dashboard
-- Seller Dashboard
+- AI Resume Analysis
+- ATS Resume Score
+- Skill Gap Analysis
+- Placement Readiness Dashboard
+- Resume Upload
+- Personalized Learning Recommendations
+- Student Performance Analytics
 - Admin Dashboard
-- Categories
-- Products
-- Shopping Cart
-- Wishlist
-- Orders
-- Coupons
-- Reports
-- Analytics
-
-
-# 🚀 Installation:
-
-## Clone Repository
-
-https://github.com/Puliteja2006/Nexus-Commerce-AI
-
-## Backend
-
-cd backend
-mvn clean install
-mvn spring-boot:run
-
-## Frontend
-
-cd frontend
-npm install
-npm run dev
-
-
-# 🚀 Future Enhancements:
-
-- Online Payments
-- AI Chatbot
-- Voice Search
-- Image Search
-- Email Notifications
-- SMS Notifications
-- Live Chat Support
-- Machine Learning Recommendations
-- Fraud Detection
-- Mobile Application
-- Multi-language Support
-- Dark & Light Theme
-
-
-# 📈 Highlights:
-
-- Enterprise-Level Architecture
-- Fully Responsive UI
-- AI-Powered Features
-- Modular Code Structure
 - Secure Authentication
-- RESTful APIs
-- High Performance
-- Scalable Design
-- Production Ready
+- Responsive User Interface
 
-
-# 👨‍💻 Developer:
-
-## **Puli Sai Srinivasa Teja**
-
-**B.Tech – Computer Science Engineering**
-
-
-### Skills:
+### 💻 Tech Stack
 
 - Java
 - Spring Boot
+- Spring Security
 - React.js
 - REST APIs
 - MySQL
 - Hibernate
-- Spring Security
 - Git & GitHub
-- AI Applications
+
+### 🎯 Project Usage
+
+The platform enables students to evaluate their resumes, identify missing skills, monitor placement readiness, and prepare effectively for technical interviews through an intelligent and user-friendly interface.
 
 
-# 🤝 Contributions:
+# 🛒 Nexus Commerce 
 
-Contributions, feature requests, and suggestions are welcome.
+### Enterprise AI-Powered Multi-Vendor E-Commerce Platform
 
-If you have ideas for improving the platform, feel free to fork the repository and submit a pull request.
+A production-ready enterprise marketplace with dedicated Customer, Seller, and Admin portals designed to deliver a secure, intelligent, and scalable online shopping experience.
+
+### 🚀 Key Features
+
+- Customer Portal
+- Seller Portal
+- Admin Portal
+- AI Product Recommendations
+- Intelligent Product Search
+- Category Management
+- Shopping Cart
+- Wishlist
+- Product Comparison
+- Order Tracking
+- Purchase History
+- Coupons & Rewards
+- Inventory Management
+- Seller Analytics
+- Revenue Dashboard
+- Role-Based Authentication
+- JWT Security
+- Responsive Enterprise UI
+
+### 💻 Tech Stack
+
+- Java
+- Spring Boot
+- Spring Security
+- React.js
+- Tailwind CSS
+- REST APIs
+- Hibernate
+- MySQL
+
+### 🎯 Project Usage
+
+Customers can browse products, place orders, and manage purchases. Sellers can manage products, inventory, and sales. Administrators monitor users, sellers, products, and overall marketplace operations through a centralized dashboard.
 
 
-# ⭐ Support:
+# 💰 Expense Tracker Application
 
-If you found this project useful, please consider giving it a ⭐ on GitHub.
+### Personal Finance Management System
 
-It helps support the project and encourages future development.
+A desktop-based application that helps users efficiently manage daily expenses, monitor spending habits, and generate financial reports.
+
+### 🚀 Key Features
+
+- User Authentication
+- Add Expenses
+- Edit Expenses
+- Delete Expenses
+- Monthly Reports
+- Expense Categories
+- SQL Database Integration
+
+### 💻 Tech Stack
+
+- Java
+- JDBC
+- MySQL
+
+### 🎯 Project Usage
+
+Allows users to organize financial records, categorize expenses, and analyze monthly spending for better financial planning.
 
 
-# 📄 License:
+# 🎓 Student Management System
 
-This project is developed for educational purposes, portfolio demonstration, and placement preparation.
+### Student Information Management Platform
 
-© 2026 Puli Sai Srinivasa Teja. All Rights Reserved.
+A Java-based application designed to simplify student record management through efficient database operations.
+
+### 🚀 Key Features
+
+- Student Registration
+- Student Record Management
+- CRUD Operations
+- Search Student
+- Update Student Details
+- Delete Student Records
+
+### 💻 Tech Stack
+
+- Java
+- JDBC
+- MySQL
+
+### 🎯 Project Usage
+
+Educational institutions can maintain student information digitally, reducing manual paperwork and improving administrative efficiency.
+
+
+# 📚 Library Management System
+
+### Digital Library Automation System
+
+A database-driven application developed to manage books, members, and borrowing operations efficiently.
+
+### 🚀 Key Features
+
+- Book Management
+- Member Management
+- Issue Books
+- Return Books
+- Search Books
+- Database Management
+
+### 💻 Tech Stack
+
+- Java
+- JDBC
+- MySQL
+
+### 🎯 Project Usage
+
+Helps libraries automate book issue and return processes while maintaining accurate records of books and members.
+
+
+# 🚀 Project Highlights
+
+✔ Enterprise-Level Full Stack Development
+
+✔ AI-Powered Applications
+
+✔ REST API Development
+
+✔ Role-Based Authentication
+
+✔ Responsive User Interfaces
+
+✔ Database Design & Integration
+
+✔ Backend System Development
+
+✔ Modern Software Architecture
+
+✔ Production-Ready Applications
+
+✔ Real-World Problem Solving
+
+
+# 📜 Certifications
+
+- ☕ Java Programming – Udemy
+- 🌐 HTML, CSS & JavaScript Bootcamp – Udemy
+- 🤖 Prompt Engineering Certification
+- 💻 HackerRank Java Programming (Completed 30-Day Challenge)
+
+
+# 🏆 Achievements
+
+- 🚀 Built enterprise-level full-stack web applications using Java, Spring Boot, React.js, and MySQL.
+- 🤖 Developed AI-powered applications focused on placement preparation and intelligent e-commerce.
+- 📈 Completed multiple real-world software engineering projects following clean architecture principles.
+- 💡 Continuously improving problem-solving skills through Data Structures & Algorithms and backend development.
+
+
+# 💼 What I Do
+
+I enjoy designing and developing modern software solutions that combine scalable backend systems with responsive frontend experiences.
+
+My focus areas include:
+
+- Enterprise Full Stack Development
+- Backend API Development
+- Artificial Intelligence Applications
+- RESTful Web Services
+- Database Design
+- Software Architecture
+- Secure Authentication
+- Responsive UI Development
+
+
+# 🎯 Career Objective
+
+My goal is to become a highly skilled **Software Development Engineer (SDE)** specializing in **AI-powered Full Stack Development**, Backend Engineering, and Enterprise Software Architecture.
+
+I aspire to build intelligent, scalable, and impactful software solutions while continuously learning modern technologies and contributing to innovative products.
+
+
+# 🤝 Connect With Me
+
+### 💻 GitHub
+
+**https://github.com/Puliteja2006**
+
+### 🔗 LinkedIn
+
+**https://www.linkedin.com/in/puli-sai-srinivasa-teja-164189326**
+
+
+# 💡 Developer Philosophy
+
+> **"Great software is built by continuously learning, solving meaningful problems, and writing clean, maintainable code."**
+
+
+# 📌 Current Focus
+
+- Building enterprise-grade Full Stack applications
+- Improving Data Structures & Algorithms
+- Mastering Java Backend Development
+- Developing AI-powered software solutions
+- Learning scalable software architecture and cloud deployment
+
+
+# 🚀 Open Source
+
+I believe in continuous learning, knowledge sharing, and building practical software solutions that solve real-world problems.
+
+I'm always interested in exploring new technologies, improving existing projects, and contributing to the software development community.
+
+---
+
+# ⭐ Thank You
+
+Thank you for visiting my GitHub profile!
+
+If you find my projects interesting or helpful, feel free to explore my repositories, provide feedback, or connect with me on LinkedIn.
+
+Let's build amazing software together!
+
+
+
+## 🚀 "Code with Purpose • Build with Passion • Learn without Limits"
+
+**⭐ Don't forget to star the repositories if you like them! ⭐**
+
