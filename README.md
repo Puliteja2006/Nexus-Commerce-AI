@@ -122,10 +122,4 @@ All software engineering documentation files are located in the [`docs/`](./docs
 - [ ] Spring AI OpenAI GPT-4 Embedding Vectors Integration for RAG catalog search.
 - [ ] GraphQL API Endpoint Support alongside REST APIs.
 - [ ] Native Mobile App (React Native / Flutter).
-- [ ] Automated Redis Distributed Cache Layer for Product Aggregations.
-
----
-
-## 📄 License
-
-This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details.
+- [ ] Automated Redis Distributed Cache Layer for Product Aggregation.
